@@ -1,0 +1,71 @@
+body {
+    background-color: burlywood;
+}
+.container{
+    background-color: beige;
+    box-shadow: 10px -7px 12px #888888;
+}
+.pagination li a {
+    background-color: royalblue;
+    color: black;
+}
+
+.pagination li:active a {
+    background-color: red;
+    color: white;
+}
+
+.pagination li:hover:not(.active) a {
+    background-color: grey;
+    color: black;
+}
+
+.page-item {
+    margin: 10px;
+}
+.buttons {
+    background-color: royalblue;
+    margin: 15px;
+    border-radius: 0px;
+}
+
+.readButton {
+    margin: 0px;
+    color: royalblue;
+    alignment: center;
+    border-radius: 0px;
+}
+btn:hover, .readButton:hover, .buttons:hover {
+    background-color: darkgrey;
+}
+.fa {
+    color: royalblue;
+}
+
+.panel-footer {
+    border: none;
+    background-color: beige;
+}
+
+p label {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+p input, p div, p p{
+    float: initial;
+    width: 75%;
+    margin-top: 0px;
+}
+
+p input[type=submit] {
+    float: right;
+    margin: 5px 30px 5px 5px;
+    width: 15%;
+}
+
+#readButton:hover {
+    background-color: black;
+    color: white;
+}
